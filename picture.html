@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>红花会</title>
+<link rel="stylesheet" href="css/picture.css" />
+</head>
+<style>
+  .lianjie button{
+  	text-shadow:23px 10px 3px #cfe62d;
+		z-index: 1000;
+  	background-color: pink;
+  	height: 10.0rem;
+  	width: 10.0rem;
+  	position: fixed;
+  	top:0;
+  	left: 50%;
+  	margin-left: -5rem;
+  	background: url("images/paopao.png") left top no-repeat,
+		url("images/paopao.png") right bottom no-repeat;
+		border-radius: 1rem;
+		background-color: #036;
+		transition: all 2s;
+  }
+  .lianjie button:hover{
+  	height: 8.0rem;
+  	width: 8.0rem;
+  	border: 8px solid aqua;
+		border-radius: 5rem;  	
+  	transition: all 2s;
+  	background-color: yellow;
+  	background-position: left bottom , right top;
+  }
+  .lianjie a:hover{
+  	transition: all 2s;
+  	font-size: 3.0rem;
+  	color:white;
+  	line-height: 7.5rem;
+  }
+	.lianjie a{
+		transition: all 2s;
+		font-weight: bold;
+    font-family: "华文琥珀";
+		color: #000;
+		cursor: pointer;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+		text-decoration: none;
+		font-size: 2.0rem;
+		line-height: 9.5rem;
+	}
+	marquee{
+		font-size: 2.0rem
+	}
+</style>
+<body>
+<marquee behavior="alternate" direction="right">点击盒子有特效哦</marquee>
+<audio autoplay="autopaly">
+		<source src="mp3/郑国锋,小凌 - 甜不辣.mp3" type="audio/mp3" />
+</audio>
+<div class="lianjie">
+  <button><a href="index.html">返回</a></button>
+</div>
+
+<!--/*外层最大容器*/-->
+<div class="wrap">
+<!--	/*包裹所有元素的容器*/-->
+<div class="cube">
+	<!--前面图片 -->
+	<div class="out_front">
+		<img src="images/6.bmp"  class="pic">
+	</div>
+	<!--后面图片 -->
+	<div class="out_back">
+		<img src="images/an.jpg" class="pic">
+	</div>
+	<!--左图片 -->
+	<div class="out_left">
+		<img src="images/dou.jpg" class="pic">
+	</div>
+	<div class="out_right">
+		<img src="images/hui.jpg" class="pic">
+	</div>
+	<div class="out_top">
+		<img src="images/ye.jpg" class="pic">
+	</div>
+	<div class="out_bottom">
+		<img src="images/6.bmp" class="pic">
+	</div>
+	<!--小正方体 --> 
+	<span class="in_front">
+		<img src="images/1.gif" class="in_pic" />
+	</span>
+	<span class="in_back">
+		 <img src="images/1.gif" class="in_pic" />
+	</span>
+	<span class="in_left">
+		<img src="images/1.gif" class="in_pic" />
+	</span>
+	<span class="in_right">
+		<img src="images/1.gif" class="in_pic" />
+	</span>
+	<span class="in_top">
+		<img src="images/1.gif" class="in_pic" />
+	</span>
+	<span class="in_bottom">
+		<img src="images/1.gif" class="in_pic" />
+	</span>
+</div>
+</div>
+
+<!-- <script src="js/jquery.min.js"></script>
+<script src="js/snowfall.jquery.js"></script> -->
+<!-- <div style="text-align:center;clear:both">
+<script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+<script src="/follow.js" type="text/javascript"></script> -->
+<!-- </div> -->
+</body>
+</html>
+
